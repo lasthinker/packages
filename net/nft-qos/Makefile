@@ -22,12 +22,12 @@ define Package/nft-qos
   SECTION:=utils
   CATEGORY:=Base system
   DEPENDS:=+kmod-nft-netdev +kmod-nft-bridge +nftables
-  TITLE:=QoS scripts over nftables
+  TITLE:=QoS Scripts Over NFT
   PKGARCH:=all
 endef
 
 define Package/nft-qos/description
- This package provides implementation for qos over nftables.
+ This package provides implementation for QoS Over NFT.
  Currently, static/dynamic qos and traffic shaping are supported.
 endef
 
